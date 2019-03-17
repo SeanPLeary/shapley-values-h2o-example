@@ -13189,9 +13189,9 @@ div#notebook {
 Attempting to start a local H2O server...
   Java Version: openjdk version &#34;1.8.0_191&#34;; OpenJDK Runtime Environment (build 1.8.0_191-8u191-b12-0ubuntu0.18.04.1-b12); OpenJDK 64-Bit Server VM (build 25.191-b12, mixed mode)
   Starting server from /home/sean/miniconda3/envs/shap_h2o/lib/python3.6/site-packages/h2o/backend/bin/h2o.jar
-  Ice root: /tmp/tmpmbhx221r
-  JVM stdout: /tmp/tmpmbhx221r/h2o_sean_started_from_python.out
-  JVM stderr: /tmp/tmpmbhx221r/h2o_sean_started_from_python.err
+  Ice root: /tmp/tmptrtu6bj8
+  JVM stdout: /tmp/tmptrtu6bj8/h2o_sean_started_from_python.out
+  JVM stderr: /tmp/tmptrtu6bj8/h2o_sean_started_from_python.err
   Server is running at http://127.0.0.1:54321
 Connecting to H2O server at http://127.0.0.1:54321... successful.
 </pre>
@@ -13206,7 +13206,7 @@ Connecting to H2O server at http://127.0.0.1:54321... successful.
 
 <div class="output_html rendered_html output_subarea ">
 <div style="overflow:auto"><table style="width:50%"><tr><td>H2O cluster uptime:</td>
-<td>09 secs</td></tr>
+<td>17 secs</td></tr>
 <tr><td>H2O cluster timezone:</td>
 <td>Etc/GMT</td></tr>
 <tr><td>H2O data parsing timezone:</td>
@@ -13214,9 +13214,9 @@ Connecting to H2O server at http://127.0.0.1:54321... successful.
 <tr><td>H2O cluster version:</td>
 <td>3.22.1.4</td></tr>
 <tr><td>H2O cluster version age:</td>
-<td>7 days, 18 hours and 57 minutes </td></tr>
+<td>1 month and 1 day </td></tr>
 <tr><td>H2O cluster name:</td>
-<td>H2O_from_python_sean_1j5583</td></tr>
+<td>H2O_from_python_sean_9bskvk</td></tr>
 <tr><td>H2O cluster total nodes:</td>
 <td>1</td></tr>
 <tr><td>H2O cluster free memory:</td>
@@ -13226,7 +13226,7 @@ Connecting to H2O server at http://127.0.0.1:54321... successful.
 <tr><td>H2O cluster allowed cores:</td>
 <td>1</td></tr>
 <tr><td>H2O cluster status:</td>
-<td>accepting new members, healthy</td></tr>
+<td>locked, healthy</td></tr>
 <tr><td>H2O connection url:</td>
 <td>http://127.0.0.1:54321</td></tr>
 <tr><td>H2O connection proxy:</td>
@@ -13258,7 +13258,7 @@ Connecting to H2O server at http://127.0.0.1:54321... successful.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">H2OProbWrapper</span><span class="p">:</span>
@@ -13292,7 +13292,7 @@ Connecting to H2O server at http://127.0.0.1:54321... successful.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">X</span><span class="p">,</span><span class="n">y</span> <span class="o">=</span> <span class="n">shap</span><span class="o">.</span><span class="n">datasets</span><span class="o">.</span><span class="n">adult</span><span class="p">()</span>
@@ -13306,7 +13306,7 @@ Connecting to H2O server at http://127.0.0.1:54321... successful.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_display</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -13322,7 +13322,7 @@ Connecting to H2O server at http://127.0.0.1:54321... successful.
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[7]:</div>
+    <div class="prompt output_prompt">Out[5]:</div>
 
 
 
@@ -13448,7 +13448,7 @@ Connecting to H2O server at http://127.0.0.1:54321... successful.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">X</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -13464,7 +13464,7 @@ Connecting to H2O server at http://127.0.0.1:54321... successful.
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[8]:</div>
+    <div class="prompt output_prompt">Out[6]:</div>
 
 
 
@@ -13602,7 +13602,7 @@ Connecting to H2O server at http://127.0.0.1:54321... successful.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_train</span><span class="p">,</span><span class="n">X_test</span><span class="p">,</span><span class="n">y_train</span><span class="p">,</span><span class="n">y_test</span> <span class="o">=</span> <span class="n">sklearn</span><span class="o">.</span><span class="n">model_selection</span><span class="o">.</span><span class="n">train_test_split</span><span class="p">(</span><span class="o">*</span><span class="n">shap</span><span class="o">.</span><span class="n">datasets</span><span class="o">.</span><span class="n">adult</span><span class="p">(),</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
@@ -13682,7 +13682,7 @@ Parse progress: |█████████████████████
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">aml</span> <span class="o">=</span> <span class="n">H2OAutoML</span><span class="p">(</span><span class="n">max_runtime_secs</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span>
@@ -13727,7 +13727,7 @@ Parse progress: |█████████████████████
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lb</span> <span class="o">=</span> <span class="n">aml</span><span class="o">.</span><span class="n">leaderboard</span>
@@ -13755,16 +13755,15 @@ Parse progress: |█████████████████████
 <tr><th>model_id                                           </th><th style="text-align: right;">     auc</th><th style="text-align: right;">  logloss</th><th style="text-align: right;">  mean_per_class_error</th><th style="text-align: right;">    rmse</th><th style="text-align: right;">      mse</th></tr>
 </thead>
 <tbody>
-<tr><td>StackedEnsemble_AllModels_AutoML_20190223_180009   </td><td style="text-align: right;">0.928562</td><td style="text-align: right;"> 0.294521</td><td style="text-align: right;">              0.166334</td><td style="text-align: right;">0.30109 </td><td style="text-align: right;">0.0906551</td></tr>
-<tr><td>StackedEnsemble_BestOfFamily_AutoML_20190223_180009</td><td style="text-align: right;">0.928394</td><td style="text-align: right;"> 0.294621</td><td style="text-align: right;">              0.166457</td><td style="text-align: right;">0.30124 </td><td style="text-align: right;">0.0907453</td></tr>
-<tr><td>GBM_2_AutoML_20190223_180009                       </td><td style="text-align: right;">0.92829 </td><td style="text-align: right;"> 0.279296</td><td style="text-align: right;">              0.16497 </td><td style="text-align: right;">0.297449</td><td style="text-align: right;">0.0884762</td></tr>
-<tr><td>GBM_1_AutoML_20190223_180009                       </td><td style="text-align: right;">0.928089</td><td style="text-align: right;"> 0.27961 </td><td style="text-align: right;">              0.170851</td><td style="text-align: right;">0.29752 </td><td style="text-align: right;">0.0885179</td></tr>
-<tr><td>XGBoost_1_AutoML_20190223_180009                   </td><td style="text-align: right;">0.926962</td><td style="text-align: right;"> 0.281445</td><td style="text-align: right;">              0.171976</td><td style="text-align: right;">0.298953</td><td style="text-align: right;">0.0893728</td></tr>
-<tr><td>XGBoost_2_AutoML_20190223_180009                   </td><td style="text-align: right;">0.926078</td><td style="text-align: right;"> 0.283053</td><td style="text-align: right;">              0.177404</td><td style="text-align: right;">0.299673</td><td style="text-align: right;">0.0898038</td></tr>
-<tr><td>XGBoost_3_AutoML_20190223_180009                   </td><td style="text-align: right;">0.923801</td><td style="text-align: right;"> 0.287647</td><td style="text-align: right;">              0.172078</td><td style="text-align: right;">0.302137</td><td style="text-align: right;">0.0912867</td></tr>
-<tr><td>DRF_1_AutoML_20190223_180009                       </td><td style="text-align: right;">0.916227</td><td style="text-align: right;"> 0.314199</td><td style="text-align: right;">              0.184324</td><td style="text-align: right;">0.308197</td><td style="text-align: right;">0.0949852</td></tr>
-<tr><td>XRT_1_AutoML_20190223_180009                       </td><td style="text-align: right;">0.914989</td><td style="text-align: right;"> 0.30357 </td><td style="text-align: right;">              0.180572</td><td style="text-align: right;">0.309237</td><td style="text-align: right;">0.0956273</td></tr>
-<tr><td>GLM_grid_1_AutoML_20190223_180009_model_1          </td><td style="text-align: right;">0.906895</td><td style="text-align: right;"> 0.318484</td><td style="text-align: right;">              0.187657</td><td style="text-align: right;">0.319332</td><td style="text-align: right;">0.101973 </td></tr>
+<tr><td>StackedEnsemble_AllModels_AutoML_20190317_062616   </td><td style="text-align: right;">0.928211</td><td style="text-align: right;"> 0.294799</td><td style="text-align: right;">              0.174018</td><td style="text-align: right;">0.301278</td><td style="text-align: right;">0.0907685</td></tr>
+<tr><td>StackedEnsemble_BestOfFamily_AutoML_20190317_062616</td><td style="text-align: right;">0.928208</td><td style="text-align: right;"> 0.294767</td><td style="text-align: right;">              0.173925</td><td style="text-align: right;">0.301246</td><td style="text-align: right;">0.0907491</td></tr>
+<tr><td>GBM_1_AutoML_20190317_062616                       </td><td style="text-align: right;">0.928089</td><td style="text-align: right;"> 0.27961 </td><td style="text-align: right;">              0.170851</td><td style="text-align: right;">0.29752 </td><td style="text-align: right;">0.0885179</td></tr>
+<tr><td>XGBoost_1_AutoML_20190317_062616                   </td><td style="text-align: right;">0.926962</td><td style="text-align: right;"> 0.281445</td><td style="text-align: right;">              0.171976</td><td style="text-align: right;">0.298953</td><td style="text-align: right;">0.0893728</td></tr>
+<tr><td>XGBoost_2_AutoML_20190317_062616                   </td><td style="text-align: right;">0.926078</td><td style="text-align: right;"> 0.283053</td><td style="text-align: right;">              0.177404</td><td style="text-align: right;">0.299673</td><td style="text-align: right;">0.0898038</td></tr>
+<tr><td>XGBoost_3_AutoML_20190317_062616                   </td><td style="text-align: right;">0.923801</td><td style="text-align: right;"> 0.287647</td><td style="text-align: right;">              0.172078</td><td style="text-align: right;">0.302137</td><td style="text-align: right;">0.0912867</td></tr>
+<tr><td>DRF_1_AutoML_20190317_062616                       </td><td style="text-align: right;">0.916227</td><td style="text-align: right;"> 0.314199</td><td style="text-align: right;">              0.184324</td><td style="text-align: right;">0.308197</td><td style="text-align: right;">0.0949852</td></tr>
+<tr><td>XRT_1_AutoML_20190317_062616                       </td><td style="text-align: right;">0.914989</td><td style="text-align: right;"> 0.30357 </td><td style="text-align: right;">              0.180572</td><td style="text-align: right;">0.309237</td><td style="text-align: right;">0.0956273</td></tr>
+<tr><td>GLM_grid_1_AutoML_20190317_062616_model_1          </td><td style="text-align: right;">0.906895</td><td style="text-align: right;"> 0.318484</td><td style="text-align: right;">              0.187657</td><td style="text-align: right;">0.319332</td><td style="text-align: right;">0.101973 </td></tr>
 </tbody>
 </table>
 </div>
@@ -13773,7 +13772,7 @@ Parse progress: |█████████████████████
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[11]:</div>
+    <div class="prompt output_prompt">Out[9]:</div>
 
 
 
@@ -13797,7 +13796,7 @@ Parse progress: |█████████████████████
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">bst_model</span> <span class="o">=</span> <span class="n">aml</span><span class="o">.</span><span class="n">leader</span>
@@ -13817,7 +13816,7 @@ Parse progress: |█████████████████████
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">h2o_wrapper</span> <span class="o">=</span> <span class="n">H2OProbWrapper</span><span class="p">(</span><span class="n">bst_model</span><span class="p">,</span><span class="n">feature_names</span><span class="p">)</span> 
@@ -13846,7 +13845,7 @@ Parse progress: |█████████████████████
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_train</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
@@ -13862,7 +13861,7 @@ Parse progress: |█████████████████████
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[26]:</div>
+    <div class="prompt output_prompt">Out[12]:</div>
 
 
 
@@ -13891,7 +13890,7 @@ Parse progress: |█████████████████████
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">explainer</span> <span class="o">=</span> <span class="n">shap</span><span class="o">.</span><span class="n">KernelExplainer</span><span class="p">(</span><span class="n">h2o_wrapper</span><span class="o">.</span><span class="n">predict_binary_prob</span><span class="p">,</span> <span class="n">X_train</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:</span><span class="mi">100</span><span class="p">,:])</span>
@@ -13933,7 +13932,7 @@ stackedensemble prediction progress: |██████████████
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">person</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1"># first person in test dataset</span>
@@ -13958,7 +13957,7 @@ stackedensemble prediction progress: |██████████████
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Parse progress: |█████████████████████████████████████████████████████████| 100%
 stackedensemble prediction progress: |████████████████████████████████████| 100%
-prediction (probability that this person earns more than $50k/year) = 0.043528642394580916
+prediction (probability that this person earns more than $50k/year) = 0.04360118550084032
 ground_truth (this person earns more than $50k/year) = False
 </pre>
 </div>
@@ -13986,7 +13985,7 @@ ground_truth (this person earns more than $50k/year) = False
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[46]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">shap</span><span class="o">.</span><span class="n">initjs</span><span class="p">()</span>
@@ -14061,13 +14060,13 @@ stackedensemble prediction progress: |██████████████
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[46]:</div>
+    <div class="prompt output_prompt">Out[15]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id='iM9K91J1QGWW017NCZX7X'>
+<div id='i2G3F0F6201FDNCK2ATOU'>
 <div style='color: #900; text-align: center;'>
   <b>Visualization omitted, Javascript library not loaded!</b><br>
   Have you run `initjs()` in this notebook? If this notebook was from another
@@ -14077,8 +14076,8 @@ stackedensemble prediction progress: |██████████████
 </div></div>
  <script>
    if (window.SHAP) SHAP.ReactDom.render(
-    SHAP.React.createElement(SHAP.AdditiveForceVisualizer, {"outNames": ["output value"], "baseValue": 0.2372177387639577, "outValue": 0.04352864239458093, "link": "identity", "featureNames": ["Age", "Workclass", "Education-Num", "Marital Status", "Occupation", "Relationship", "Race", "Sex", "Capital Gain", "Capital Loss", "Hours per week", "Country"], "features": {"1": {"effect": -0.0021704154766946926, "value": " Private"}, "2": {"effect": -0.017098665040289826, "value": 10.0}, "3": {"effect": -0.09069233343074007, "value": " Divorced"}, "4": {"effect": 0.03302598103133167, "value": " Exec-managerial"}, "5": {"effect": -0.06483547187662886, "value": " Unmarried"}, "7": {"effect": -0.012383476330771553, "value": " Female"}, "8": {"effect": -0.011081370280207725, "value": 0.0}, "9": {"effect": -0.011490540106387434, "value": 625.0}, "10": {"effect": -0.016962804858988267, "value": 40.0}}, "plot_cmap": "RdBu", "labelMargin": 20}),
-    document.getElementById('iM9K91J1QGWW017NCZX7X')
+    SHAP.React.createElement(SHAP.AdditiveForceVisualizer, {"outNames": ["output value"], "baseValue": 0.23604470608951586, "outValue": 0.04360118550084027, "link": "identity", "featureNames": ["Age", "Workclass", "Education-Num", "Marital Status", "Occupation", "Relationship", "Race", "Sex", "Capital Gain", "Capital Loss", "Hours per week", "Country"], "features": {"2": {"effect": -0.01877701207634301, "value": 10.0}, "3": {"effect": -0.09094104661601274, "value": " Divorced"}, "4": {"effect": 0.031370547487821955, "value": " Exec-managerial"}, "5": {"effect": -0.061756656867720014, "value": " Unmarried"}, "7": {"effect": -0.016375196516989127, "value": " Female"}, "8": {"effect": -0.009471678410545331, "value": 0.0}, "9": {"effect": -0.010238788647226396, "value": 625.0}, "10": {"effect": -0.016253688941660904, "value": 40.0}}, "plot_cmap": "RdBu", "labelMargin": 20}),
+    document.getElementById('i2G3F0F6201FDNCK2ATOU')
   );
 </script>
 </div>
@@ -14102,7 +14101,7 @@ stackedensemble prediction progress: |██████████████
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">person</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1"># second person in test dataset</span>
@@ -14127,7 +14126,7 @@ stackedensemble prediction progress: |██████████████
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Parse progress: |█████████████████████████████████████████████████████████| 100%
 stackedensemble prediction progress: |████████████████████████████████████| 100%
-prediction (probability that this person earns more than $50k/year) = 0.8016872462715479
+prediction (probability that this person earns more than $50k/year) = 0.8012822261020577
 ground_truth (this person earns more than $50k/year) = True
 </pre>
 </div>
@@ -14146,7 +14145,7 @@ ground_truth (this person earns more than $50k/year) = True
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">shap</span><span class="o">.</span><span class="n">initjs</span><span class="p">()</span>
@@ -14221,13 +14220,13 @@ stackedensemble prediction progress: |██████████████
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[48]:</div>
+    <div class="prompt output_prompt">Out[17]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id='i670VX398EK892VK2LCE3'>
+<div id='iB7R6X2D83GQQDY9YH2RL'>
 <div style='color: #900; text-align: center;'>
   <b>Visualization omitted, Javascript library not loaded!</b><br>
   Have you run `initjs()` in this notebook? If this notebook was from another
@@ -14237,8 +14236,8 @@ stackedensemble prediction progress: |██████████████
 </div></div>
  <script>
    if (window.SHAP) SHAP.ReactDom.render(
-    SHAP.React.createElement(SHAP.AdditiveForceVisualizer, {"outNames": ["output value"], "baseValue": 0.2372177387639577, "outValue": 0.801687246271548, "link": "identity", "featureNames": ["Age", "Workclass", "Education-Num", "Marital Status", "Occupation", "Relationship", "Race", "Sex", "Capital Gain", "Capital Loss", "Hours per week", "Country"], "features": {"0": {"effect": 0.09933056136750343, "value": 48.0}, "1": {"effect": 0.07892528505082674, "value": " Federal-gov"}, "2": {"effect": 0.16173515238615532, "value": 13.0}, "3": {"effect": -0.07930573264608048, "value": " Divorced"}, "4": {"effect": 0.1365206502138106, "value": " Exec-managerial"}, "5": {"effect": -0.040944312340735034, "value": " Unmarried"}, "6": {"effect": 0.008927326284293019, "value": " White"}, "7": {"effect": 0.05575264305894595, "value": " Male"}, "10": {"effect": 0.14352793413287063, "value": 58.0}}, "plot_cmap": "RdBu", "labelMargin": 20}),
-    document.getElementById('i670VX398EK892VK2LCE3')
+    SHAP.React.createElement(SHAP.AdditiveForceVisualizer, {"outNames": ["output value"], "baseValue": 0.23604470608951586, "outValue": 0.8012822261020576, "link": "identity", "featureNames": ["Age", "Workclass", "Education-Num", "Marital Status", "Occupation", "Relationship", "Race", "Sex", "Capital Gain", "Capital Loss", "Hours per week", "Country"], "features": {"0": {"effect": 0.10903718313668864, "value": 48.0}, "1": {"effect": 0.08510174154955022, "value": " Federal-gov"}, "2": {"effect": 0.16287670347132538, "value": 13.0}, "3": {"effect": -0.07725265177726043, "value": " Divorced"}, "4": {"effect": 0.1362336332128964, "value": " Exec-managerial"}, "5": {"effect": -0.04794370955824254, "value": " Unmarried"}, "6": {"effect": 0.0026216988256303753, "value": " White"}, "7": {"effect": 0.0523098881234762, "value": " Male"}, "10": {"effect": 0.14225303302847753, "value": 58.0}}, "plot_cmap": "RdBu", "labelMargin": 20}),
+    document.getElementById('iB7R6X2D83GQQDY9YH2RL')
   );
 </script>
 </div>
@@ -14264,13 +14263,42 @@ stackedensemble prediction progress: |██████████████
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="save-model,-X,-y">save model, X, y<a class="anchor-link" href="#save-model,-X,-y">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">h2o</span><span class="o">.</span><span class="n">save_model</span><span class="p">(</span><span class="n">bst_model</span><span class="p">)</span>
+<span class="n">X_test</span><span class="o">.</span><span class="n">to_pickle</span><span class="p">(</span><span class="s1">&#39;X_test.pkl&#39;</span><span class="p">)</span>
+<span class="n">X_train</span><span class="o">.</span><span class="n">to_pickle</span><span class="p">(</span><span class="s1">&#39;X_train.pkl&#39;</span><span class="p">)</span>
+<span class="n">np</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s1">&#39;y_test.npy&#39;</span><span class="p">,</span><span class="n">y_test</span><span class="p">)</span>
+<span class="n">np</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s1">&#39;y_train.npy&#39;</span><span class="p">,</span><span class="n">y_train</span><span class="p">)</span>
+<span class="n">X_test_display</span><span class="o">.</span><span class="n">to_pickle</span><span class="p">(</span><span class="s1">&#39;X_test_display.pkl&#39;</span><span class="p">)</span>
+<span class="n">X_train_display</span><span class="o">.</span><span class="n">to_pickle</span><span class="p">(</span><span class="s1">&#39;X_train_display.pkl&#39;</span><span class="p">)</span>
+<span class="n">np</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s1">&#39;y_test_display.npy&#39;</span><span class="p">,</span><span class="n">y_test_display</span><span class="p">)</span>
+<span class="n">np</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s1">&#39;y_train_display.npy&#39;</span><span class="p">,</span><span class="n">y_train_display</span><span class="p">)</span>
+<span class="n">X</span><span class="o">.</span><span class="n">to_pickle</span><span class="p">(</span><span class="s1">&#39;X.pkl&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="shutdown-h2o">shutdown h2o<a class="anchor-link" href="#shutdown-h2o">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[50]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">h2o</span><span class="o">.</span><span class="n">cluster</span><span class="p">()</span><span class="o">.</span><span class="n">shutdown</span><span class="p">()</span>
@@ -14290,7 +14318,7 @@ stackedensemble prediction progress: |██████████████
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>H2O session _sid_b8eb closed.
+<pre>H2O session _sid_830c closed.
 </pre>
 </div>
 </div>
