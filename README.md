@@ -4,7 +4,7 @@
 ## Task List
 - [x] Classification Example
 - [ ] Regression Example
-- [ ] Use Plotly for visualizations
+- [x] Use Plotly for visualizations
 
 
 ## Notebooks
@@ -12,6 +12,8 @@
 | --- | --- |
 | [shap_h2o_automl_classification.ipynb](shap_h2o_automl_classification.ipynb) | jupyter notebook w/ classification examples |
 | [shap_h2o_automl_classification.html](shap_h2o_automl_classification.html) | html version for viewing force_plots |
+| [plotly_force_plot.ipynb](plotly_force_plot.ipynb) | jupyter notebook plotly force-plots |
+| [plotly_force_plot.html](plotly_force_plot.html) | html version plotly force-plots |
 
 ## Step-by-step guide
 [1] 
